@@ -4,7 +4,7 @@ import SHOP_DATA  from './shop-data'
 import {CollectionPreview} from '../../Components/Collection-preview/collection.component'; 
 
 class ShopPage extends react.Component{
-    constructor(props){
+    constructor({props}){
         super();
         this.state={
             collections:SHOP_DATA
